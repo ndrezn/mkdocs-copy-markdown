@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.mkdocs.org)",
+      "Bash(mkdir:*)",
+      "Bash(uv add:*)",
+      "Bash(uv run:*)",
+      "Bash(grep:*)"
+    ],
+    "deny": []
+  }
+}
