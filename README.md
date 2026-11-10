@@ -53,6 +53,16 @@ plugins:
   - `"top"`: Places the button above the page content
   - `"bottom"`: Places the button below the page content
 
+### Per-page opt-out
+
+Individual pages can disable the button by setting `copy_markdown: false` in their front-matter:
+
+```yaml
+---
+copy_markdown: false
+---
+```
+
 ## Usage
 
 Once installed and configured, the plugin will automatically add a copy button to every page in your MkDocs site. Users can click the button to copy the original markdown source of the page to their clipboard.
